@@ -9,56 +9,80 @@
     <title>Helicopters</title>
 </head>
 <body>
-    <hr style="border: 25px solid #b30000" width="100%">
-
-    <div class="sidenav">
-        <a href="index.html">Homepage,</a>
-        <a href="furryfriends.html">Dogs & Pups,</a>
-        <a href="contact.html">Contact Us</a>
-        
-      </div>
-
-      <div class="border">
-        <button type="submit"><i class="fa fa-search"></i>
-		<input type="text" placeholder="Search.." name="search">
-	  </button>
-      </div>
-
+    <div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+					 
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="navbar-toggler-icon"></span>
+					</button
+					><img src="./img/Logo.jpg" width="60px;" height="60px;"> 
+					<a href="index.html">Homepage... </a>
+					<a href="appliances.html">Helicopters... </a>
+					<a href="furryfriends.html">Dogs & Pups... </a>
+					<a href="contact.html">Contact Us... </a>
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="navbar-nav">
+							
+						
+							<li class="nav-item dropdown">
+								 <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Dropdown</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									 <a class="dropdown-item" href="appliances.html"><Helicopters...</a>Helicopters <a class="dropdown-item" href="furryfriends.html"><Dogs & Pups... </a> Dogs & Pups <a class="dropdown-item" href="contact.html">Contact Us</a>
+									<div class="dropdown-divider">
+									
+							</li>
+						</ul>
+						<form class="form-inline">
+							<input class="form-control mr-sm-2" type="text" /> 
+							<button class="btn btn-primary my-2 my-sm-0" type="submit">
+								Search
+							</button>
+						</form>
+					
+							
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
       <div class="container-fluid">
         <div class="row">
             <div class="col-md-4">
                 <h3>
-                    h3. Lorem ipsum dolor sit amet.
-                </h3><img src="https://attachments.office.net/owa/Maya.Smith%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkADEwMmY3MjVlLTgyZDEtNDM1MS1hOTA2LTYzMzBlYzMwNDFkMABGAAAAAADgUmvwW9FmQac4DhBR8ap8BwCve79QoyPxSLbewg2H2emqAAAAAAEMAACve79QoyPxSLbewg2H2emqAANVoeO1AAABEgAQAF4orIo2dqZDrhz0%2BPrafb0%3D&thumbnailType=2&owa=outlook.office.com&scriptVer=2020022303.15&X-OWA-CANARY=l3PJV35q0EWAO4_wymDzo8DlNCp2wNcYUDutgLaBy-ElRcxEWjx6OUs8vn4uTHQ3pljJbu2rwdQ.&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkiLCJ0eXAiOiJKV1QifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInZlciI6IkV4Y2hhbmdlLkNhbGxiYWNrLlYxIiwiYXBwY3R4c2VuZGVyIjoiT3dhRG93bmxvYWRAZDk4MmYzZGMtOGMyNS00ZDc5LWE3MjktZjZkNDdkNjBjZmU1IiwiaXNzcmluZyI6IldXIiwiYXBwY3R4Ijoie1wibXNleGNocHJvdFwiOlwib3dhXCIsXCJwcmltYXJ5c2lkXCI6XCJTLTEtNS0yMS04MDI2Njk1NDQtNzQ1NjUxMDQxLTM5MzgzNzAxMzctOTQyMjE1N1wiLFwicHVpZFwiOlwiMTE1MzgzNjI5NjU2NTgzNDg2NVwiLFwib2lkXCI6XCI1Mzg1YzJlNi00YTM1LTQzMjctYWVjOC03NmJmZjY0MmQ2Y2VcIixcInNjb3BlXCI6XCJPd2FEb3dubG9hZFwifSIsIm5iZiI6MTU4MzM1MTgwMSwiZXhwIjoxNTgzMzUyNDAxLCJpc3MiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDBAZDk4MmYzZGMtOGMyNS00ZDc5LWE3MjktZjZkNDdkNjBjZmU1IiwiYXVkIjoiMDAwMDAwMDItMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2F0dGFjaG1lbnRzLm9mZmljZS5uZXRAZDk4MmYzZGMtOGMyNS00ZDc5LWE3MjktZjZkNDdkNjBjZmU1In0.Yl5TYDq0I7qwykF5UWs0VdcDv_fYakqcv5NYoABq62A5cNijFkPlfuh5kX9dpTdFXh5rBXTVrIRdI-qzdVmRC3KoTW7NHwsP3_HItjCH1kCJgNFD3O6YOsWocfiaTuuu86B31m6mX3ExGRy9UKwqwbZSeSgNAQOgjL52_Nqmvo5U-a0jtrk-FYDfZ8hDwM0Mcwhhl9v_1ChZ9ChY5RM8dYzgrSZcte9r6eMDGWhUhDaQjj7IqsvPYO2lyZjFWwhOH5IxWMkfYsTIUm4leVVHH8_rZlULjj5zFb2vHii4lW7VJDiP1_f13HgWIV8bNeFYm84tDxNDs6ZlwjXLqGhE_A&animation=true">
+                   The Master RX-5000
+                </h3><img src="./img/Helicopter1.png">
                 <p>
-                    Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+                   The Master RX-5000 is a helicopter designed for larger sized dogs. The RX-5000 is priced at $555.00. 
                 </p> 
                 <button type="button" class="btn btn-success active">
-                    Button
+                    Buy Now!
                 </button>
             </div>
             <hr style="border: 2px solid #b30000" width="100%">
             <div class="col-md-4">
                 <h3>
-                    h3. Lorem ipsum dolor sit amet.
-                </h3><img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+                   The Balanced RX-2000
+                </h3><img src="./img/Helipupter2.png" height="330px" width="430px"/>
                 <p>
-                    Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+                    The Balanced RX-2000 is helicopter designed for larger sized dogs. The RX-2000 is priced at $575.00. 
                 </p> 
                 <button type="button" class="btn btn-success active">
-                    Button
+                    Buy Now!
                 </button>
             </div>
             <hr style="border: 2px solid #b30000" width="100%">
             <div class="col-md-4">
                 <h3>
-                    h3. Lorem ipsum dolor sit amet.
-                </h3><img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+                    The Luxurious RX-3000 
+                </h3><img src="./img/Helicopter3.png" height="330px" width="430px" />
                 <p>
-                    Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+                    The Luxurious RX-3000 is desgined for smaller sized dogs. The Luxurious RX-3000 is priced at $525.00.
                 </p> 
                 <button type="button" class="btn btn-success active">
-                    Button
+                    Buy Now!
                 </button>
             </div>
             <hr style="border: 2px solid #b30000" width="100%">
@@ -73,7 +97,7 @@
                     Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
                 </p> 
                 <button type="button" class="btn btn-success active">
-                    Button
+                    Buy Now!
                 </button>
             </div>
             <hr style="border: 2px solid #b30000" width="100%">
@@ -85,7 +109,7 @@
                     Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
                 </p> 
                 <button type="button" class="btn btn-success active">
-                    Button
+                    Buy Now!
                 </button>
             </div>
             <hr style="border: 2px solid #b30000" width="100%">
@@ -100,7 +124,7 @@
         </div>
     </div>
 
-
+    <hr style="border: 25px solid #b30000" width="100%">
 
 </body>
 </html>
