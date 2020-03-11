@@ -1,53 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Helicopters</title>
-</head>
-<body>
-    <div class="container-fluid">
-		<div class="row">
-			<div class="col-md-12">
-				<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-					 
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="navbar-toggler-icon"></span>
-					</button
-					><img src="./img/Logo.jpg" width="60px;" height="60px;"> 
-					<a href="index.html">Homepage... </a>
-					<a href="appliances.html">Helicopters... </a>
-					<a href="furryfriends.html">Dogs & Pups... </a>
-					<a href="contact.html">Contact Us... </a>
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="navbar-nav">
-							
-						
-							<li class="nav-item dropdown">
-								 <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Dropdown</a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-									 <a class="dropdown-item" href="appliances.html"><Helicopters...</a>Helicopters <a class="dropdown-item" href="furryfriends.html"><Dogs & Pups... </a> Dogs & Pups <a class="dropdown-item" href="contact.html">Contact Us</a>
-									<div class="dropdown-divider">
-									
-							</li>
-						</ul>
-						<form class="form-inline">
-							<input class="form-control mr-sm-2" type="text" /> 
-							<button class="btn btn-primary my-2 my-sm-0" type="submit">
-								Search
-							</button>
-						</form>
-					
-							
-						</ul>
-					</div>
-				</nav>
-			</div>
-		</div>
-	</div>
+<?php include "includes/header.php" ?>
+
       <div class="container-fluid">
         <div class="row">
             <div class="col-md-4">
@@ -58,7 +10,7 @@
                    The Master RX-5000 is a helicopter designed for larger sized dogs. The RX-5000 is priced at $555.00. 
                 </p> 
                 <button type="button" class="btn btn-success active">
-                    Buy Now!
+                    Add to Cart!
                 </button>
             </div>
             <hr style="border: 2px solid #b30000" width="100%">
@@ -70,7 +22,7 @@
                     The Balanced RX-2000 is helicopter designed for larger sized dogs. The RX-2000 is priced at $575.00. 
                 </p> 
                 <button type="button" class="btn btn-success active">
-                    Buy Now!
+                    Add to Cart!
                 </button>
             </div>
             <hr style="border: 2px solid #b30000" width="100%">
@@ -82,7 +34,7 @@
                     The Luxurious RX-3000 is desgined for smaller sized dogs. The Luxurious RX-3000 is priced at $525.00.
                 </p> 
                 <button type="button" class="btn btn-success active">
-                    Buy Now!
+                    Add to Cart!
                 </button>
             </div>
             <hr style="border: 2px solid #b30000" width="100%">
@@ -92,12 +44,12 @@
             <div class="col-md-4">
                 <h3>
                     h3. Lorem ipsum dolor sit amet.
-                </h3><img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+                </h3><img src="./img/pinkplane.png" height="330px" width="430px"/>
                 <p>
                     Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
                 </p> 
                 <button type="button" class="btn btn-success active">
-                    Buy Now!
+                    Add to Cart!
                 </button>
             </div>
             <hr style="border: 2px solid #b30000" width="100%">
@@ -109,7 +61,7 @@
                     Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
                 </p> 
                 <button type="button" class="btn btn-success active">
-                    Buy Now!
+                    Add to Cart!
                 </button>
             </div>
             <hr style="border: 2px solid #b30000" width="100%">
