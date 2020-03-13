@@ -27,13 +27,7 @@
 						<ul class="navbar-nav">
 							
 						
-							<li class="nav-item dropdown">
-								 <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown">Dropdown</a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-									 <a class="dropdown-item" href="appliances.html"><Helicopters...</a>Helicopters <a class="dropdown-item" href="furryfriends.html"><Dogs & Pups... </a> Dogs & Pups <a class="dropdown-item" href="contact.html">Contact Us</a>
-									<div class="dropdown-divider">
-									
-							</li>
+							
 						</ul>
 						<form class="form-inline">
 							<input class="form-control mr-sm-2" type="text" /> 
